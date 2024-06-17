@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    
+</head>
+<body>
+
+  <nav>
+    <div class="navlogo">
+            <img src="public/images/fitness logo.png">
+</div>
+            <div id="navigation">
+                <div id="menu" onclick="onClickMenu()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+                </div>
+                <ul class="nav" id="nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="classes.html">Classes</a></li>
+                    <li><a href="product.html">Product</a></li>
+                    <li><a href="blog.html">Blogs</a></li>
+                    <button id="openformBtn" onclick="openform()" ><a href="#">JoinUs</a></button>
+                </ul>
+                
+            </div>
+    
+    <form>
+        <div id="form" style="display: none;">
+            <input type="Full Name" name="Name" placeholder="Full Name">
+            <input type="number" name="Mobile Number" placeholder="Mobile Number">
+            <input type="Gender" name="Gender" placeholder="Gender">
+            <input type="E-mai" name="E-mai" placeholder="Enter Your E-mail Here">
+            <input type="password" name="" placeholder="Enter your password">
+            <button class="btn2"><a href="#">SignIN</a></button>
+        
+            <p class="link">Already Have Account<br></p>
+             <p id="l1"><a href="#">Login</a></p>
+            <p class="liw">Join With </p>
+            <div class="icon">
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-snapchat"></ion-icon></a>
+            </div>
+            <button id="closeformBtn" onclick="closeform()" type="button">Close</button>
+            </div>
+    </form>
+  </nav>
+  
+  <div class="Image">
+    <img src="public/images/scott-webb-Vn39uEkX00s-unsplash.jpg ">
+    <div class="text">
+      <h1>Revitalize<br><span>your body</span></h1>
+      
+      <p>Fall in love with taking care of yourself .
+        <br><span>mind,body and spirit.</span>  
+      </p>
+      <button class="gt"><a href="#">Get Started</a></button>
+      <button class="frt"><a href="#">Free Trial -> </a></button>
+    </div>
+  </div>
+  
+  
+  <section class="plan_types">
+    <h2>Fitness Plans & Nutrition</h2>
+    <div class="plan_grid">
+        <div class="plan_card">
+            <div class="plan_card__content">
+                <img src="images/icons8-weight-pound-50.png" alt="">
+                <h3>Weight Loss</h3>
+            </div>
+        </div>
+        <div class="plan_card">
+            <div class="plan_card__content">
+                <img src="images/icons8-yoga-50.png" alt="">
+                <h3>Classic Yoga</h3>
+            </div>
+        </div>
+        <div class="plan_card">
+            <div class="plan_card__content">
+                <img src="images/icons8-cycling-50.png" alt="">
+                <h3>Cycling</h3>
+            </div>
+        </div>
+        <div class="plan_card">
+            <div class="plan_card__content">
+                <img src="images/icons8-biceps-50.png" alt="">
+                <h3>Bodybuilding</h3>
+            </div>
+        </div>
+        <div class="plan_card">
+            <div class="plan_card__content">
+                <img src="images/icons8-gym-50.png" alt="">
+                <h3>Hypertrophy</h3>
+            </div>
+        </div>
+        <div class="plan_card">
+            <div class="plan_card__content">
+                <img src="images/icons8-running-50.png" alt="">
+                <h3>Running</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="subs">
+    <h3>Subscription Plans</h3>
+   <div class="Image2">
+    <img src="public/images/anastase-maragos-9dzWZQWZMdE-unsplash.jpg">
+    <div class="subscolor">
+        <h2 class="b1">Basic</h2>
+        <p class="f1">For 12 month</p>
+        <h2 class="r1">Rs800/month</h2>
+        <p class="f2">for streaming</p>
+        <button class="slp1"><a href="#">Select Plan</a></button>
+    </div>
+            <div class="subscolor1">
+                <h2 class="I1">Intermediate</h2>
+                <p class="f12">For 12 month</p>
+                <h2 class="r12">Rs1000/month</h2>
+                <p class="f21">for streaming</p>
+                <button class="slp2"><a href="#">Select Plan</a></button>
+            </div>
+
+             <div class="subscolor2">
+                <h2 class="A1">Advanced</h2>
+                <p class="f13">For 12 month</p>
+                <h2 class="r13">Rs1500/month</h2>
+                <p class="f22">for streaming</p>
+                <button class="slp3"><a href="#">Select Plan</a></button>
+             </div>
+            
+            
+        </div>
+    </div>
+   
+</section>
+
+<section class="club">
+    <div class="Image3">
+        <img src="public/img_fitness.jpg">
+    </div>
+     <div class="bg1">
+        
+    </div>
+    <div class="wcon">
+        
+            <img id="wi1" src="public/gm.png">
+            <h2 id="wt1">Good Management</h2>
+            <p id="wp1">What hurts today you stronger<br> tomorrow</p>
+            <img id="wi2" src="public/ps1.jpg">
+            <h2 id="wt2">Practice Sessions</h2>
+            <p id="wp2">Motivation is what gets you started.</p>
+            <img id="wi3" src="public/ft2.png">
+            <h2 id="wt3">Personal Trainers</h2>
+            <p id="wp3">If it doesn't challenge you.<br> It won't change you.</p>
+    </div>
+    
+</section>
+
+<section>
+    <div class="success">
+        <div class="Image4">
+            <p><u>Success Stories</u></p>
+            <div class="row">
+                <div class="column">
+                    <img src="public/images/james-barr-jYrFcbztIHA-unsplash.jpg">
+                    <p>working out regularly I Lose <br>
+                    some of my extra pounds which <br>
+                helped in my modeling career</p>
+                </div>
+                <div class="column">
+                    <img src="public/images/mark-adriane-xQghSLXYD3M-unsplash.jpg">
+                    <p>Yoga and pilates helped<br>
+                    me get back in shape<br>
+                and raised my confidence.</p>
+                </div>
+                <div class="column">
+                    <img src="public/images/bruce-mars-HHXdPG_eTIQ-unsplash.jpg">
+                    <p>Personal Trainer diet plan<br>
+                    helped in increasing<br>
+                   strength and endurance.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="logo1">
+        <div class="Image5">
+            <img src="public/images/fitness logo.png">
+            <p>Priortize Your Fitness Goals<br>
+            with our world class services.</p>
+            <h3 id="c1">COMPANY</h3>
+            <h3 id="c2">CONTACT</h3>
+            <h3 id="h1">HOME</h3>
+
+            
+                <p id="sd1">About</p>
+                <p id="sd2">careers</p>
+                <p id="sd3">Blogs</p>
+                <p id="sd4">Terms & Conditions</p>
+
+                <p id="sa1">Help/FAQs</p>
+                <p id="sa2">Press</p>
+                <p id="sa3">Mobile</p>
+
+                <p id="sh1">Program</p>
+                <p id="sh2">Plans</p>
+                <p id="sh3">Method</p>
+            
+           <h2 id="p1">Popular Tags</h2>
+
+           <div class="tag1">
+            <p id="pt1">ABS</p>
+         </div>
+         <div class="tag2">
+            <p id="pt2">Workout</p>
+         </div>
+         <div class="tag3">
+            <p id="pt3">Nutrition</p>
+         </div>
+         <div class="tag4">
+            <p id="pt4">GYM</p>
+         </div>
+         <div class="tag5">
+            <p id="pt5">Boxing</p>
+         </div>
+         <div class="tag6">
+            <p id="pt6">Trainers</p>
+         </div>
+         <div class="tag7">
+            <p id="pt7">Facilities</p>
+         </div>
+                
+
+        </div>
+    </div>
+
+    <div class="endp">
+        <h3>Copyright All Rights Reserved </h3>
+    </div>
+</footer>
+
+</body>
+</html>

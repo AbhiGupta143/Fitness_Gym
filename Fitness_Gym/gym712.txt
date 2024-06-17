@@ -1,0 +1,52 @@
+/* gym 1 */
+
+position: absolute;
+width: 1440px;
+height: 721px;
+left: 0px;
+top: 100px;
+
+background: url(gym.jpg);
+
+
+
+/* Rectangle 5 */
+
+position: absolute;
+width: 664px;
+height: 524px;
+left: calc(50% - 664px/2 - 316px);
+top: 246px;
+
+background: rgba(30, 29, 29, 0.86);
+border-radius: 4px;
+
+
+
+
+
+
+<div class="plan_grid1">
+
+    <div class="plan_card11">
+        <div class="plan_card__content1">
+            <img id="tm" src="public/images/alina-chernysheva-JA2S6sJWleg-unsplash.jpg" alt="">
+            <button class="P3">Treadmill</button>
+            </div>
+    </div>
+
+    <div class="plan_card12">
+        <div class="plan_card__content2">
+            <img src="public/images/heidi-erickson-CPSjcuuV8E8-unsplash.jpg" alt="">
+            <button class="P1">Free Weights</button>
+        </div>
+    </div>
+
+    <div class="plan_card13">
+        <div class="plan_card__content3">
+            <img src="public/images/fitnish-media-5zrPlR-5lP0-unsplash.jpg" alt="">
+            <button class="P1">Cable Machines</button>
+        </div>
+
+    </div>
+

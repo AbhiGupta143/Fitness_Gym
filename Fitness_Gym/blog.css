@@ -1,0 +1,462 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    background-color:gray; 
+ }
+ 
+ .navlogo  img{
+    height: 300%;
+    width: 17%;
+    float: left;
+    position: absolute;
+    bottom: -113%;
+    left: 11%;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    color: black;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #ff8c69;
+    transition: 0.4s ease 0s;
+}
+  button{
+    background-color: darkgoldenrod;
+    margin-left: 0%;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    text-decoration: none;
+}
+button a{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.blog{
+    top :6.93%;
+    position: absolute;
+    background: rgba(255, 165, 0, 0.50);
+    width: 100%;
+    height: 75vh;
+}
+
+.blog .bimg img{
+    position: absolute;
+   top: 15%;
+   left: 5%;
+    width: 38%;
+    height: 50vh;
+}
+
+.blog .bcon{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 810px;
+    top: 70px;
+}
+.bcon p{
+    color: #000;
+text-align: justify;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+
+.blog1 {
+    position: absolute;
+    top: 81.5%;
+    width: 100%;
+    height: 80vh;
+     background-color: #000;
+}
+.blog1 .bcen{
+    width: 1059px;
+    height: 462px;
+   position: absolute;
+   top: 10%;
+   right: 15%;
+   border-radius: 6px;
+   background: #D9D9D9;
+}
+
+.blog1 .bcen p{
+    width: 592px;
+    height: 59px;
+    color: #000;
+text-align: justify;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.blog1 .bcen .bimg1 img {
+   position: absolute;
+   top: 0%;
+   right: 0%;
+   width: 484px;
+   height: 462px;
+}
+
+.blog1 .bcen .bcon1{
+    position: absolute;
+    width: 528px;
+    right: 46%;
+}
+ .blog1 .bcen .bcon1 ul li{
+    color: #a01616;
+
+font-family: Radio Canada;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+ }
+
+
+ .blog2{
+    top :161.5%;
+    position: absolute;
+    background:  rgba(255, 165, 0, 0.50);
+    width: 100%;
+    height: 75vh;
+}
+
+.blog2 .bimg2 img{
+    position: absolute;
+    border-radius: 6px;
+   top: 15%;
+   left: 810px;
+    width: 38%;
+    height: 50vh;
+}
+
+.blog2 .bcon2{
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    left: 12%;
+    top: 72px;
+}
+.bcon2 p{
+    color: #000;
+text-align: justify;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+ .lasts{
+    width: 100%;
+    height: 40vh;
+    position: absolute;
+    bottom: -176%;
+ }
+   .lasts .imagelogo{
+    background-color: grey;
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    
+   }
+
+   .lasts .imagelogo img{
+    width: 20%;
+    height: 35vh;
+   }
+
+   .imagelogo p{
+    width: 230px;
+    height: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    color: paleturquoise;
+    position: absolute;
+    left: 76px;
+    bottom: 125px;
+   }
+
+   .lasts .imagelogo #c1 {
+    height: 14%;
+    width: 0%;
+    color: black;
+    position: relative;
+    left: 36%;
+    top: -70%;
+}
+.lasts .imagelogo #c2 {
+    height: 14%;
+    width: 0%;
+    color: black;
+    position: relative;
+    left: 48%;
+    top: -84%;
+}
+.lasts .imagelogo #h1 {
+    height: 14%;
+    width: 0%;
+    color: black;
+    position: relative;
+    left: 59%;
+    top: -98%;
+}
+
+.lasts .imagelogo #sd1{
+    position: absolute;
+    color: white;
+    left: 37%;
+    top: 33%;
+
+}
+
+.lasts .imagelogo #sd2{
+    position: absolute;
+    color: white;
+    left: 37%;
+    top: 42%;
+
+}
+
+.lasts .imagelogo #sd3{
+    position: absolute;
+    color: white;
+    left: 37%;
+    top: 50%;
+
+}
+
+.lasts .imagelogo #sd4{
+    position: absolute;
+    color: white;
+    left: 37%;
+    top: 58%;
+}
+.lasts .imagelogo #sa1{
+    position: absolute;
+    color: white;
+    left: 49%;
+    top: 33%;
+
+}
+.lasts .imagelogo #sa2{
+    position: absolute;
+    color: white;
+    left: 49%;
+    top: 42%;
+
+}
+.lasts .imagelogo #sa3{
+    position: absolute;
+    color: white;
+    left: 49%;
+    top: 51%;
+
+}
+
+.lasts .imagelogo #sh1{
+    position: absolute;
+    color: white;
+    left: 59%;
+    top: 33%;
+
+}
+
+.lasts .imagelogo #sh2{
+    position: absolute;
+    color: white;
+    left: 59%;
+    top: 42%;
+
+}
+
+.lasts .imagelogo #sh3{
+    position: absolute;
+    color: white;
+    left: 59%;
+    top: 51%;
+}
+
+.lasts .imagelogo #p1{
+    height: 14%;
+    width: 10%;
+    color:yellow;
+    position: relative;
+    left: 77%;
+    top: -115%;
+}
+
+.lasts .imagelogo .tag1 {
+    position: absolute;
+    width: 80px;
+   height: 33px;
+   top: 30%;
+   right: 20%;
+   background-color: aliceblue;
+}
+
+.lasts .imagelogo .tag1 #pt1{
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    top: 20%;
+    left: 15%;
+}
+.lasts .imagelogo .tag2 {
+    position: absolute;
+    width: 85px;
+   height: 33px;
+   top: 30%;
+   right: 10%;
+   background-color: aliceblue;
+}
+
+.lasts .imagelogo .tag2 #pt2{
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    top: 20%;
+    left: 8%;
+}
+.lasts .imagelogo .tag3 {
+    position: absolute;
+    width: 85px;
+   height: 33px;
+   top: 47%;
+   right: 20%;
+   background-color:yellow;
+}
+.lasts .imagelogo .tag3 #pt3{
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    top: 20%;
+    left: 5%;
+}
+
+.lasts .imagelogo .tag4 {
+    position: absolute;
+    width: 85px;
+   height: 33px;
+   top: 47%;
+   right: 10%;
+   background-color: aliceblue;
+}
+
+.lasts .imagelogo .tag4 #pt4{
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    top: 20%;
+    left: 7%;
+}
+.lasts .imagelogo .tag5 {
+    position: absolute;
+    width: 85px;
+   height: 33px;
+   top: 65%;
+   right: 20%;
+   background-color: yellow;
+}
+.lasts .imagelogo .tag5 #pt5{
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    top: 20%;
+    left: 15%;
+}
+.lasts .imagelogo .tag6 {
+    position: absolute;
+    width: 85px;
+   height: 33px;
+   top: 65%;
+   right: 10%;
+   background-color: yellow;
+}
+.lasts .imagelogo .tag6 #pt6{
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    top: 20%;
+    left: 1%;
+}
+.lasts .imagelogo .tag7 {
+    position: absolute;
+    width: 85px;
+   height: 33px;
+   top: 82%;
+   right: 15%;
+   background-color: aliceblue;
+}
+.lasts .imagelogo .tag7 #pt7{
+    position: absolute;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    top: 8%;
+    left: 8%;
+}
+  .lasts .endlogo{
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    top:  0%;
+   }
+   .endlogo h3{
+    width: 20%;
+    height: 30px;
+    font-size: 16px;
+    background-position: center;
+    font-family: Arial;
+    position: relative;
+    left: 640px;
+    top: 5px;
+   }                                  
+
+.endp{
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 5vh;
+}
+.endp h3{
+    width: 20%;
+    height: 30px;
+    font-size: 16px;
+    background-position: center;
+    font-family: Arial;
+    position: relative;
+    left: 640px;
+    top: 10px
+}

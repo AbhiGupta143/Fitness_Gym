@@ -1,0 +1,706 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    background-color:gray; 
+ }
+ 
+ .navlogo  img{
+    height: 300%;
+    width: 17%;
+    float: left;
+    position: absolute;
+    bottom: -113%;
+    left: 11%;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    color: black;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #ff8c69;
+    transition: 0.4s ease 0s;
+}
+  button{
+    background-color: darkgoldenrod;
+    margin-left: 0%;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    text-decoration: none;
+}
+button a{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+nav form #form{
+    width: 250px;
+    height: 120px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%,);
+    position: relative;
+    top: 49px;
+    left: 1111px;
+    border-radius: 10px;
+    padding: 15px;
+}
+nav  form #form input{
+    width: 240px;
+    height: 35%;
+    background: wheat;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: black;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    font-family: sans-serif;
+}
+  nav #form input:focus{
+    outline: none;
+  }
+  ::placeholder{
+    color: white;
+    font-family: Arial;
+  }
+ nav .btn2{
+    width: 165px;
+    height: 40px;
+    background: #ff7400;
+    border: none;
+    margin-top: 0px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: wheat;
+    position: relative;
+    right:-14%;
+  }
+  nav .btn2:hover{
+    background: #f4f0f0;
+    color: #ff8c69;
+  }
+.btn2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav #form .link{
+    font-family: Arial;
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+    position:relative;
+    right: -4%;
+    top: -35%;
+}
+nav #form #l1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    position:relative;
+    right: -45%;
+    top: -68%;
+    
+}
+nav #form #l1 a{
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+nav #form #l1 a:hover{
+    
+    color: red;
+}
+nav #form .liw {
+    position: relative;
+    top: -110%;
+    right: -4%;
+    padding: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.icon{
+    width: 141px;
+    height: 20px;
+    position: relative;
+    top: -138%;
+    right: -34%;
+    
+}
+.icon a{
+   
+    color: white;    
+}
+
+.icon ion-icons{
+    color: white;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+  transition: 0.4s ease;
+}
+ .icon ion-icon:hover
+{
+    color: peru;
+}
+nav #form #closeformBtn{
+    position: relative;
+    top: -125%;
+    right: -38%;
+transition: 0.4s ease;
+}
+nav #form #closeformBtn:hover{
+    background: #ff8c69;
+    color:white;
+}
+
+
+.BgImage{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 50px;
+}
+.BgImage #bi1{
+    width: 100%;
+    height: 100vh;
+    opacity: 0.5;
+    background-size: cover;
+    background-position: center;
+}
+.BgImage p{
+    width: 440px ;
+    height:60px;
+    position: absolute;
+    right: 35%;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    top: 09%;
+}
+.BgImage .plan_grid {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    padding: 0px 400px;
+}
+
+ .BgImage .plan_card1 {
+    padding: 1rem 1rem;
+    display: flex;
+    position: absolute;
+    top: 35%;
+    right: 67%;
+    flex-direction: column;
+    background-color: gray;
+    border: 6px solid white;
+    border-radius: 20px;
+    
+}
+.BgImage .plan_card2 {
+    padding: 1rem 1rem;
+    display: flex;
+    position: absolute;
+    top: 35%;
+    right: 18%;
+    flex-direction: column;
+    background-color: gray;
+    border: 6px solid white;
+    border-radius: 20px;
+    
+}
+.BgImage .plan_card3 {
+    padding: 1rem 1rem;
+    display: flex;
+    position: absolute;
+    top: 35%;
+    right: 44%;
+    flex-direction: column;
+    background-color: gray;
+    border: 6px solid white;
+    border-radius: 20px;
+    
+}
+
+.BgImage .plan_card__content {
+    flex: 1;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
+.BgImage .plan_card__content img{
+    width: 165px;
+    height: 170px;
+}
+.BgImage .plan_card__content h4{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Arial;
+    top: 110%;
+    right: 23%;
+}
+.BgImage .plan_card__content button{
+    position:absolute;
+    top:140%;
+    right: 19%;
+    width: 148px;
+    height: 46px;
+    background-color:rgb(218, 16, 36);
+    font-size: 14px;
+    font-weight: bold;
+    color: wheat;
+}
+.weighimage{
+    width: 100%;
+    height: auto;
+}
+.weighimage #wi1{
+    width: 100%;
+    height: 80vh;
+    opacity: 0.5;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+.weighimage p{
+    width: 300px ;
+    height:60px;
+    position: absolute;
+    right: 38%;
+    color: rgb(12, 188, 198);
+    font-weight: bold;
+    font-size: 30px;
+    top: 104%;
+}
+
+.weighimage .content {
+   position: absolute;
+   top: 120%;
+   left: 180px;
+   
+}
+
+.weighimage .content img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.weighimage .content .TM{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 20px;
+    top: 115%;
+    left: 10%;
+    
+}
+.weighimage .content1 {
+    position: absolute;
+    top: 120%;
+    right: 40%;
+ }
+ 
+.weighimage .content1 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.weighimage .content1 .FW{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    top: 115%;
+    left: 10%;
+    
+}
+.weighimage .content2 {
+    position: absolute;
+    top: 120%;
+    right: 100px;
+ }
+ 
+.weighimage .content2 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.weighimage .content2 .CM{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    position: absolute;
+    top: 115%;
+    left: 10%;
+    
+}
+
+
+.last1{
+    width: 100%;
+    height: auto;
+}
+.last1 #li1{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    opacity: 0.5;
+    background-position: center;
+    background-size: cover;
+}
+.last1  p{
+    width: 390px ;
+    height:60px;
+    position: absolute;
+    right: 35%;
+    color: rgb(17, 1, 1);
+    font-weight: bold;
+    font-size: 32px;
+    top: 188%;
+    font-family: Arial;
+}
+
+.last1 .row{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 200%;
+}
+
+
+ .row .column1{
+    position: absolute;
+    top: -205%;
+    float: left;
+    left: 10%;
+    width: 20px;
+    height: 33vh;
+    padding: 5px;
+
+ }
+ .row .column1 img{
+    width: 300px;
+    height: 40vh;
+    border-radius: 6px;
+ }
+ 
+ .row .column2{
+    position: absolute;
+    top: -205%;
+    left: 42%;
+    float: left;
+    width: 20px;
+    height: 33vh;
+    padding: 5px;
+    
+
+ }
+ .row .column2 img{
+    width: 300px;
+    height: 40vh;
+    border-radius: 6px;
+ }
+ .row .column3{
+    position: absolute;
+    top: -205%;
+    left: 73%;
+    width: 20px;
+    height: 33vh;
+    padding: 5px;
+
+ }
+ .row .column3 img{
+    width: 300px;
+    height: 40vh;
+    border-radius: 6px;
+ }
+    
+.row .column1 .c1{
+  position: relative;
+  width: 150px;
+  height: 40px;
+  top: 5%;
+  left: 70px;
+  background: #ffa550;
+  border-radius: 10px;
+}
+ .column1 .c1 p{
+    position: relative;
+    top: 5px;
+    left: 27px;
+  font-size: 20px;
+  color: black;
+}
+.row .column2 .c2{
+    position: relative;
+    width: 152px;
+    height: 40px;
+    top: 5%;
+    left: 70px;
+    background: #ffa550;
+    border-radius: 10px;
+  }
+   .column2 .c2 p{
+      position: relative;
+      top: 5px;
+      left: 40px;
+    font-size: 25px;
+    color: black;
+  }
+  .row .column3 .c3{
+    position: relative;
+    width: 150px;
+    height: 34px;
+    top: 5%;
+    left: 70px;
+    background: #ffa550;
+    border-radius: 10px;
+  }
+   .column3 .c3 p{
+    width: 0px;
+    height: 0px;
+      position: relative;
+      top: 5px;
+      left: 33px;
+    font-size: 20px;
+    color: black;
+  }
+
+.Image5{
+    background-color: grey;
+    width: 100%;
+    height: 39vh;
+}
+.Image5 img{
+    width: 20%;
+    height: 35vh;
+}
+.Image5 p{
+    width: 230px;
+    height: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    color: paleturquoise;
+    position: relative;
+    left: 76px;
+    top: -100px;
+}
+
+.Image5 #c1 {
+    height: 14%;
+    width: 0%;
+    color: black;
+    position: relative;
+    left: 36%;
+    top: -75%;
+}
+.Image5 #c2 {
+    height: 14%;
+    width: 0%;
+    color: black;
+    position: relative;
+    left: 48%;
+    top: -90%;
+}
+.Image5 #h1 {
+    height: 14%;
+    width: 0%;
+    color: black;
+    position: relative;
+    left: 59%;
+    top: -104%;
+}
+.Image5 #p1{
+    height: 14%;
+    width: 23%;
+    color:yellow;
+    position: relative;
+    left: 77%;
+    top: -120%;
+}
+.Image5 #sd1{
+    position: absolute;
+    color: white;
+    left: 38%;
+    top: 276%;
+
+}
+
+.Image5 #sd2{
+    position: absolute;
+    color: white;
+    left: 38%;
+    top: 281%;
+
+}
+
+.Image5 #sd3{
+    position: absolute;
+    color: white;
+    left: 38%;
+    top: 286%;
+
+}
+
+.Image5 #sd4{
+    position: absolute;
+    color: white;
+    left: 38%;
+    top: 291%;
+}
+.Image5 #sa1{
+    position: absolute;
+    color: white;
+    left: 49%;
+    top: 276%;
+
+}
+.Image5 #sa2{
+    position: absolute;
+    color: white;
+    left: 49%;
+    top: 281%;
+
+}
+.Image5 #sa3{
+    position: absolute;
+    color: white;
+    left: 49%;
+    top: 286%;
+
+}
+
+.Image5 #sh1{
+    position: absolute;
+    color: white;
+    left: 59%;
+    top: 276%;
+
+}
+
+.Image5 #sh2{
+    position: absolute;
+    color: white;
+    left: 59%;
+    top: 281%;
+
+}
+
+.Image5 #sh3{
+    position: absolute;
+    color: white;
+    left: 59%;
+    top: 286%;
+
+}
+
+    .Image5 #pt1{
+        position: absolute;
+        color: white;
+        left: 77%;
+        font-size: 20px;
+        font-weight: bold;
+        top: 276%;
+    }
+        .Image5 #pt2{
+            position: absolute;
+            color: wheat;
+            left: 82%;
+            font-size: 22px;
+        font-weight: bold;
+            top: 276%;
+        }
+            .Image5 #pt3{
+                position: absolute;
+                color: white;
+                font-size: 20px;
+                font-weight: bold;
+                left: 77%;
+                top: 281%;
+            }
+                .Image5 #pt4{
+                    position: absolute;
+                    color: white;
+                    font-size: 20px;
+                    font-weight: bold;
+                    left: 84%;
+                    top: 281%;
+                }
+                    .Image5 #pt5{
+                        position: absolute;
+                        color: white;
+                        font-size: 20px;
+                        font-weight: bold;
+                        left: 77%;
+                        top: 286%;
+                           }
+                                  .Image5 #pt6{
+                            position: absolute;
+                            color: white;
+                            font-size: 20px;
+        font-weight: bold;
+                            left: 82%;
+                            top: 286%;
+                                  }   
+                                  .Image5 #pt7{
+                                    position: absolute;
+                                    color: white;
+                                    font-size: 20px;
+        font-weight: bold;
+                                    left: 80%;
+                                    top: 291%;
+                                          }    
+
+.endp{
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 5vh;
+}
+.endp h3{
+    width: 20%;
+    height: 30px;
+    font-size: 16px;
+    background-position: center;
+    font-family: Arial;
+    position: relative;
+    left: 640px;
+    top: 10px
+}
+
+
+
+

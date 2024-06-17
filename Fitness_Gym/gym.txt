@@ -1,0 +1,53 @@
+<html>
+<head>
+<style>
+.myDiv {
+  border: 5px outset red;
+  background-color: rgb(214, 219, 222);
+  text-align: left;
+}
+</style>
+</head>
+<body>
+    <div class = "mydiv">
+        <h1>FITNESS STAR GYM</h1>
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#classes">Classes</a>
+            <a href="#product">Product</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#joinus">Join Us</a>
+          </div>
+    </div>
+    
+</div>
+<div class="container">
+    <img src="/public/pic1.jpg" alt="Fitness" height="600" width="900" >
+    <div class="content">
+        <h1>Revitalize 
+            your body
+        </h1>
+        <p>Fall in love with taking care of yourself:
+            mind,body and Spirit,
+        </p>
+      </div>
+    <button class="btn">Get Started</button>
+    <button class="btn1">Free Trial</button>
+  </div>
+
+   <h2 style="align-content: center;">  Fitness Plans & Nutritions
+   </h2>
+   <div class="container">
+    <img src="/public/pic2.jpg">
+    <div class="content">Weight Loss</div>
+    <img src="/public/pic3.png">
+    <div class="content">Cycling</div>
+    <img src="/public/pic4.jpg">
+    <div class="content">Body Building</div>
+    <img src="/public/pic5.png" alt="">
+    <div class="content">classic Yoga</div>
+    
+
+   </div>
+</body>
+</html>

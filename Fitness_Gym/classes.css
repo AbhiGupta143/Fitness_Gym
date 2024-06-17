@@ -1,0 +1,888 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    background-color:gray; 
+ }
+ 
+ .navlogo  img{
+    height: 300%;
+    width: 17%;
+    float: left;
+    position: absolute;
+    bottom: -113%;
+    left: 11%;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 20px;
+    color: black;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #ff8c69;
+    transition: 0.4s ease 0s;
+}
+  button{
+    background-color: darkgoldenrod;
+    margin-left: 0%;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    text-decoration: none;
+}
+button a{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.BgImage{
+    width: 100%;
+    height: auto;
+}
+.BgImage img{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.BgImage p{
+    width: 300px ;
+    height:60px;
+    position: absolute;
+    right: 38%;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    top: 20%;
+}
+.BgImage .plan_grid {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    padding: 80px 400px;
+}
+
+ .BgImage .plan_card1 {
+    padding: 1rem 1rem;
+    display: flex;
+    position: absolute;
+    top: 35%;
+    right: 67%;
+    flex-direction: column;
+    background-color: gray;
+    border: 6px solid white;
+    border-radius: 20px;
+    
+}
+.BgImage .plan_card2 {
+    padding: 1rem 1rem;
+    display: flex;
+    position: absolute;
+    top: 35%;
+    right: 18%;
+    flex-direction: column;
+    background-color: gray;
+    border: 6px solid white;
+    border-radius: 20px;
+    
+}
+.BgImage .plan_card3 {
+    padding: 1rem 1rem;
+    display: flex;
+    position: absolute;
+    top: 35%;
+    right: 44%;
+    flex-direction: column;
+    background-color: gray;
+    border: 6px solid white;
+    border-radius: 20px;
+    
+}
+
+.BgImage .plan_card__content {
+    flex: 1;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
+.BgImage .plan_card__content img{
+    width: 165px;
+    height: 170px;
+}
+.BgImage .plan_card__content h4{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Arial;
+    top: 110%;
+    right: 23%;
+}
+.BgImage .plan_card__content button{
+    position:absolute;
+    top:140%;
+    right: 19%;
+    width: 148px;
+    height: 46px;
+    background-color:rgb(218, 16, 36);
+    font-size: 14px;
+    font-weight: bold;
+    color: wheat;
+}
+.trn h2{
+    position:absolute;
+    top: 102%;
+    right: 40%;
+
+}
+.trn .trncolor{
+    background-color: #FFA50057;
+    position: absolute;
+    width: 1440px;
+    height: 600px;
+    
+    left: -32px;}
+
+.trn .image1{
+    width: 100%;
+    height: 109vh;
+    position: absolute;
+    top: 100% ;
+}
+.image1 #img1{
+    width: 25%;
+    height: 60vh;
+    padding: 85px;
+    border-radius: 8px;
+    position: absolute;
+    right: 70%;
+    border-radius: 95px;
+}
+.image1 .nm1 {
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    top: 47%;
+    right: 78%;
+    background: rgba(77, 72, 72, 1);
+    border-radius: 25px;
+}
+.image1 .nm1 p{
+ font-size: 25px;
+ font-weight: bold;
+ color: white;
+ position: relative;
+ left: 27px;
+}
+.image1 #img2{
+    width: 25%;
+    height: 60vh;
+    padding: 85px;
+    border: black;
+    position: absolute;
+    border-radius: 95px;
+    right: 39%;
+    
+}
+.image1 .nm2 {
+    width: 12%;
+    height: 5%;
+    position: absolute;
+    top: 47%;
+    right: 45%;
+  background: rgba(77, 72, 72, 1);
+    border-radius: 20px;
+}
+.image1 .nm2 p{
+ font-size: 25px;
+ font-weight: bold;
+ color: white;
+ position: relative;
+ left: 13px;
+}
+ .image1 #img3{
+    width: 25%;
+    height: 60vh;
+    padding: 85px;
+    border: black;
+    position: absolute;
+    right: 10%;
+    border-radius: 95px;
+}
+
+
+.image1 .nm3 {
+    width: 10%;
+    height: 5%;
+    position: absolute;
+    top: 47%;
+    right: 18%;
+     background: rgba(77, 72, 72, 1);
+    border-radius: 20px;
+}
+.image1 .nm3 p{
+ font-size: 25px;
+ font-weight: bold;
+ color: white;
+ position: relative;
+ left: 27px;
+}
+.pic1 img{
+    width: 100%;
+    height: 60vh; 
+   position: absolute;
+   top: 1200px;
+}
+.Image5{
+    background-color: grey;
+    width: 100%;
+    height: 39vh;
+    position: absolute;
+    top: 1622px;
+}
+.Image5 img{
+    width: 20%;
+    height: 35vh;
+}
+.Image5 p{
+    width: 230px;
+    height: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    color: paleturquoise;
+    position: relative;
+    left: 76px;
+    top: -100px;
+}
+
+.Image5 #c1 {
+    height: 14%;
+    width: 0%;
+    color: black;
+    position: relative;
+    left: 36%;
+    top: -80%;
+}
+.Image5 #c2 {
+    height: 14%;
+    width: 0%;
+    color: black;
+    position: relative;
+    left: 48%;
+    top: -93%;
+}
+.Image5 #h1 {
+    height: 14%;
+    width: 0%;
+    color: black;
+    position: relative;
+    left: 61%;
+    top: -106%;
+}
+.Image5 #p1{
+    height: 14%;
+    width: 23%;
+    color:yellow;
+    position: relative;
+    left: 77%;
+    top: -175%;
+}
+.Image5 #sd1{
+    position: relative;
+    color: white;
+    left: 37%;
+    top: -106%;
+
+}
+
+.Image5 #sd2{
+    position: relative;
+    color: white;
+    left: 37%;
+    top: -103%;
+
+}
+
+.Image5 #sd3{
+    position: relative;
+    color: white;
+    left: 37%;
+    top: -100%;
+
+}
+
+.Image5 #sd4{
+    position: relative;
+    color: white;
+    left: 37%;
+    top: -97%;
+}
+.Image5 #sa1{
+    position: relative;
+    color: white;
+    left: 48%;
+    top: -127%;
+
+}
+.Image5 #sa2{
+    position: relative;
+    color: white;
+    left: 48%;
+    top: -120%;
+
+}
+.Image5 #sa3{
+    position: relative;
+    color: white;
+    left: 48%;
+    top: -115%;
+
+}
+
+.Image5 #sh1{
+    position: relative;
+    color: white;
+    left: 61%;
+    top: -142%;
+
+}
+
+.Image5 #sh2{
+    position: relative;
+    color: white;
+    left: 61%;
+    top: -138%;
+
+}
+
+.Image5 #sh3{
+    position: relative;
+    color: white;
+    left: 61%;
+    top: -132%;
+
+}
+
+    .Image5 #pt1{
+        position: relative;
+        color: white;
+        left: 76%;
+        top: -170%;
+    }
+        .Image5 #pt2{
+            position: relative;
+        color: white;
+        left: 83%;
+        top: -175%;
+        }
+            .Image5 #pt3{
+                position: relative;
+                color: white;
+                left: 76%;
+                top: -170%;
+            }
+                .Image5 #pt4{
+                    position: relative;
+                    color: white;
+                    left: 83%;
+                    top: -175%;
+                }
+                    .Image5 #pt5{
+                        position: relative;
+                        color: white;
+                        left: 76%;
+                        top: -170%;
+                           }
+                                  .Image5 #pt6{
+                                    position: relative;
+                                    color: white;
+                                    left: 83%;
+                                    top: -175%;
+                                  }   
+                                  .Image5 #pt7{
+                                    position: relative;
+                                    color: white;
+                                    left: 82%;
+                                    top: -170%;
+                                          }    
+
+.endp{
+    background-color: darkgoldenrod;
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    top: 1000px;
+}
+.endp h3{
+    width: 20%;
+    height: 30px;
+    font-size: 16px;
+    background-position: center;
+    font-family: Arial;
+    position: relative;
+    left: 640px;
+    top:2px;
+}
+
+
+ 
+
+@media only screen and (min-width:300px) and (max-width:670px){
+    
+    nav{
+        width: 100%;
+        height: 50px;
+        
+     }
+     
+     .navlogo  img{
+        height: 300%;
+        width: 17%;
+        float: left;
+        position: absolute;
+        bottom: -113%;
+        left: 11%;
+        cursor: pointer;
+    }
+    nav ul{
+        float: right;
+    }
+    nav li{
+        display: inline-block;
+        list-style: none;
+    }
+    nav li a{
+        font-size: 18px;
+        text-transform: uppercase;
+        padding: 0px 20px;
+        color: black;
+        visibility: collapse;
+        text-decoration: none;
+    }
+    nav li a:hover{
+        color: #ff8c69;
+        transition: 0.4s ease 0s;
+    }
+      button{
+        background-color: darkgoldenrod;
+        margin-left: 0%;
+        border-radius: 10px;
+        padding: 10px;
+        width: 90px;
+        text-decoration: none;
+    }
+    button a{
+        color: black;
+        font-weight: bold;
+        font-size: 15px;
+    
+    }
+    .BgImage{
+        width: 100%;
+        height: auto;
+    }
+    .BgImage img{
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .BgImage p{
+        width: 300px ;
+        height:60px;
+        position: absolute;
+        right: 38%;
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        top: 20%;
+    }
+    .BgImage .plan_grid {
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+        padding: 80px 400px;
+    }
+    
+     .BgImage .plan_card1 {
+        padding: 1rem 1rem;
+        display: flex;
+        position: absolute;
+        top: 35%;
+        right: 67%;
+        flex-direction: column;
+        background-color: gray;
+        border: 6px solid white;
+        border-radius: 20px;
+        
+    }
+    .BgImage .plan_card2 {
+        padding: 1rem 1rem;
+        display: flex;
+        position: absolute;
+        top: 35%;
+        right: 18%;
+        flex-direction: column;
+        background-color: gray;
+        border: 6px solid white;
+        border-radius: 20px;
+        
+    }
+    .BgImage .plan_card3 {
+        padding: 1rem 1rem;
+        display: flex;
+        position: absolute;
+        top: 35%;
+        right: 44%;
+        flex-direction: column;
+        background-color: gray;
+        border: 6px solid white;
+        border-radius: 20px;
+        
+    }
+    
+    .BgImage .plan_card__content {
+        flex: 1;
+        margin-bottom: 0rem;
+        text-align: center;
+    }
+    
+    .BgImage .plan_card__content img{
+        width: 165px;
+        height: 170px;
+    }
+    .BgImage .plan_card__content h4{
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+        font-family: Arial;
+        top: 110%;
+        right: 23%;
+    }
+    .BgImage .plan_card__content button{
+        position:absolute;
+        top:140%;
+        right: 19%;
+        width: 148px;
+        height: 46px;
+        background-color:rgb(218, 16, 36);
+        font-size: 14px;
+        font-weight: bold;
+        color: wheat;
+    }
+    .trn h2{
+        position:absolute;
+        top: 102%;
+        right: 40%;
+    
+    }
+    .trn .trncolor{
+        background-color: #FFA50057;
+        position: absolute;
+        width: 1440px;
+        height: 600px;
+        
+        left: -32px;}
+    
+    .trn .image1{
+        width: 100%;
+        height: 109vh;
+        position: absolute;
+        top: 100% ;
+    }
+    .image1 #img1{
+        width: 25%;
+        height: 60vh;
+        padding: 85px;
+        border-radius: 8px;
+        position: absolute;
+        right: 70%;
+        border-radius: 95px;
+    }
+    .image1 .nm1 {
+        width: 10%;
+        height: 5%;
+        position: absolute;
+        top: 47%;
+        right: 78%;
+        background: rgba(77, 72, 72, 1);
+        border-radius: 25px;
+    }
+    .image1 .nm1 p{
+     font-size: 25px;
+     font-weight: bold;
+     color: white;
+     position: relative;
+     left: 27px;
+    }
+    .image1 #img2{
+        width: 25%;
+        height: 60vh;
+        padding: 85px;
+        border: black;
+        position: absolute;
+        border-radius: 95px;
+        right: 39%;
+        
+    }
+    .image1 .nm2 {
+        width: 12%;
+        height: 5%;
+        position: absolute;
+        top: 47%;
+        right: 45%;
+      background: rgba(77, 72, 72, 1);
+        border-radius: 20px;
+    }
+    .image1 .nm2 p{
+     font-size: 25px;
+     font-weight: bold;
+     color: white;
+     position: relative;
+     left: 13px;
+    }
+     .image1 #img3{
+        width: 25%;
+        height: 60vh;
+        padding: 85px;
+        border: black;
+        position: absolute;
+        right: 10%;
+        border-radius: 95px;
+    }
+    
+    
+    .image1 .nm3 {
+        width: 10%;
+        height: 5%;
+        position: absolute;
+        top: 47%;
+        right: 18%;
+         background: rgba(77, 72, 72, 1);
+        border-radius: 20px;
+    }
+    .image1 .nm3 p{
+     font-size: 25px;
+     font-weight: bold;
+     color: white;
+     position: relative;
+     left: 27px;
+    }
+    .pic1 img{
+        width: 100%;
+        height: 60vh; 
+       position: absolute;
+       top: 1200px;
+    }
+    .Image5{
+        background-color: grey;
+        width: 100%;
+        height: 39vh;
+        position: absolute;
+        top: 1622px;
+    }
+    .Image5 img{
+        width: 20%;
+        height: 35vh;
+    }
+    .Image5 p{
+        width: 230px;
+        height: 15px;
+        font-size: 17px;
+        font-weight: bold;
+        color: paleturquoise;
+        position: relative;
+        left: 76px;
+        top: -100px;
+    }
+    
+    .Image5 #c1 {
+        height: 14%;
+        width: 0%;
+        color: black;
+        position: relative;
+        left: 36%;
+        top: -80%;
+    }
+    .Image5 #c2 {
+        height: 14%;
+        width: 0%;
+        color: black;
+        position: relative;
+        left: 48%;
+        top: -93%;
+    }
+    .Image5 #h1 {
+        height: 14%;
+        width: 0%;
+        color: black;
+        position: relative;
+        left: 61%;
+        top: -106%;
+    }
+    .Image5 #p1{
+        height: 14%;
+        width: 23%;
+        color:yellow;
+        position: relative;
+        left: 77%;
+        top: -175%;
+    }
+    .Image5 #sd1{
+        position: relative;
+        color: white;
+        left: 37%;
+        top: -106%;
+    
+    }
+    
+    .Image5 #sd2{
+        position: relative;
+        color: white;
+        left: 37%;
+        top: -103%;
+    
+    }
+    
+    .Image5 #sd3{
+        position: relative;
+        color: white;
+        left: 37%;
+        top: -100%;
+    
+    }
+    
+    .Image5 #sd4{
+        position: relative;
+        color: white;
+        left: 37%;
+        top: -97%;
+    }
+    .Image5 #sa1{
+        position: relative;
+        color: white;
+        left: 48%;
+        top: -127%;
+    
+    }
+    .Image5 #sa2{
+        position: relative;
+        color: white;
+        left: 48%;
+        top: -120%;
+    
+    }
+    .Image5 #sa3{
+        position: relative;
+        color: white;
+        left: 48%;
+        top: -115%;
+    
+    }
+    
+    .Image5 #sh1{
+        position: relative;
+        color: white;
+        left: 61%;
+        top: -142%;
+    
+    }
+    
+    .Image5 #sh2{
+        position: relative;
+        color: white;
+        left: 61%;
+        top: -138%;
+    
+    }
+    
+    .Image5 #sh3{
+        position: relative;
+        color: white;
+        left: 61%;
+        top: -132%;
+    
+    }
+    
+        .Image5 #pt1{
+            position: relative;
+            color: white;
+            left: 76%;
+            top: -170%;
+        }
+            .Image5 #pt2{
+                position: relative;
+            color: white;
+            left: 83%;
+            top: -175%;
+            }
+                .Image5 #pt3{
+                    position: relative;
+                    color: white;
+                    left: 76%;
+                    top: -170%;
+                }
+                    .Image5 #pt4{
+                        position: relative;
+                        color: white;
+                        left: 83%;
+                        top: -175%;
+                    }
+                        .Image5 #pt5{
+                            position: relative;
+                            color: white;
+                            left: 76%;
+                            top: -170%;
+                               }
+                                      .Image5 #pt6{
+                                        position: relative;
+                                        color: white;
+                                        left: 83%;
+                                        top: -175%;
+                                      }   
+                                      .Image5 #pt7{
+                                        position: relative;
+                                        color: white;
+                                        left: 82%;
+                                        top: -170%;
+                                              }    
+    
+    .endp{
+        background-color: darkgoldenrod;
+        width: 100%;
+        height: 5vh;
+        position: relative;
+        top: 1000px;
+    }
+    .endp h3{
+        width: 20%;
+        height: 30px;
+        font-size: 16px;
+        background-position: center;
+        font-family: Arial;
+        position: relative;
+        left: 640px;
+        top:2px;
+    }   
+    
+}
